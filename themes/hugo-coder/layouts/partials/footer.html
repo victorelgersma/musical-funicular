@@ -1,0 +1,14 @@
+<footer class="footer">
+  <section class="container">
+    ©
+    {{ if (and .Site.Params.since (lt .Site.Params.since now.Year)) }}
+      {{ .Site.Params.since }} -
+    {{ end }}
+    {{ now.Year }}
+    ·
+    {{ with .Site.Params.author }} {{ . }} {{ end }}
+    ·
+    Professor of Political and Social Science, <a href="https://www.city.ac.uk/">City University of London</a>.
+    
+  </section>
+</footer>

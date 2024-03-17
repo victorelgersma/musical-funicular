@@ -1,0 +1,65 @@
+baseurl = "https://azmanov.github.io/albena_site_clone/"
+title = "Albena Azmanova"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Albena Azmanova"
+  info = "Critical Interventions on Politcs and Society"
+  description = "Albena Azmanova's website"
+  keywords = "portfolio,academic,blog"
+#  avatarurl = "images/avatar.jpg"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2020
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Menu links
+[[menu.main]]
+  name = "Books"
+  weight = 1
+  url = "books/"
+[[menu.main]]
+  name = "Events"
+  weight = 2
+  url = "events/"
+[[menu.main]]
+  name = "About"
+  weight = 3
+  url = "about/"
+[[menu.main]]
+  name = "Articles & Book Chapters"
+  weight = 4
+  url = "articles_and_book_chapters"
+[[menu.main]]
+  name = "Research Overview"
+  weight = 5
+  url = "research"
+[[menu.main]]
+  name = "Opeds"
+  weight = 6
+  url = "opeds/"
