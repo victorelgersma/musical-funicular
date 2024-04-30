@@ -2,7 +2,8 @@
 
 The goal is to have mom's site be functionally equivalent to azmanova.com but as a static site built with Hugo
 
-Kanban: https://github.com/users/victorelgersma/projects/1/views/1?pane=issue&itemId=61502641
+Kanban: https://github.com/users/victorelgersma/projects/1/views/1
+
 
 ### local development
 

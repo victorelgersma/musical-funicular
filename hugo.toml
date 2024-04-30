@@ -67,3 +67,13 @@ style = "github-dark"
   name = "Opeds"
   weight = 7
   url = "opeds/"
+
+
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
