@@ -13,4 +13,9 @@ hugo serve
 
 ## Deployment
 
+view my builds at https://app.netlify.com/teams/victorelgersma/builds/663142c35c86f60008537230
+
+
+the deployment itself lives at:
+
 https://main--funny-marigold-0a5e0e.netlify.app/
