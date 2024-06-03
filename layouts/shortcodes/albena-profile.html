@@ -1,3 +1,4 @@
+<!-- this is a modification of the default figure shortcode -->
 
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
   {{- if .Get "link" -}}
@@ -39,7 +40,17 @@
 </figure>
 
 <style>
+
+  figure img {
+    border-radius : 4%; 
+    width: 250px;
+  }
+  @media (min-width:720px) {
   figure {
       display:inline-block
   }
+  figure img {
+    width: 150px
+  }
+}
 </style>
